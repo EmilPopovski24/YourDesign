@@ -5,11 +5,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <div className='main-content'>
       <Routes>
           <Route path="/home" element={<Home />} />
       </Routes>
-
-
+      </div>
     </div>
   );
 }
