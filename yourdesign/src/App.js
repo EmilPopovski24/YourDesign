@@ -6,14 +6,15 @@ import { UserLogin } from './components/Client/Login/Login';
 import './App.css';
 
 function App() {
+
   return (
     <div className="App">
       <Header />
       <div className='main-content'>
-      <Routes>
+        <Routes>
           <Route path="/home" element={<Home />} />
           <Route path="/user-login" element={<UserLogin />} />
-      </Routes>
+        </Routes>
       </div>
       <Footer />
     </div>
